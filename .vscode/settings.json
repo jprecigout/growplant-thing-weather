@@ -1,0 +1,52 @@
+{
+  "python.linting.enabled": true,
+  "python.jediEnabled": false,
+
+  // Loaded Stubs:  esp32-micropython-1.19.1
+  "python.autoComplete.extraPaths": [
+    ".micropy/esp32-micropython-1.19.1/frozen",
+    ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+    ".micropy/esp32-micropython-1.19.1/stubs",
+    ".micropy/growplant-iot-thing"
+  ],
+  "python.autoComplete.typeshedPaths": [
+    ".micropy/esp32-micropython-1.19.1/frozen",
+    ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+    ".micropy/esp32-micropython-1.19.1/stubs",
+    ".micropy/growplant-iot-thing"
+  ],
+  "python.analysis.typeshedPaths": [
+    ".micropy/esp32-micropython-1.19.1/frozen",
+    ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+    ".micropy/esp32-micropython-1.19.1/stubs",
+    ".micropy/growplant-iot-thing"
+  ],
+
+  "python.linting.pylintEnabled": true,
+  "python.analysis.extraPaths": [
+    ".micropy/esp32-micropython-1.19.1/frozen",
+    ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+    ".micropy/esp32-micropython-1.19.1/stubs",
+    ".micropy/growplant-iot-thing"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ab307e",
+    "activityBar.background": "#ab307e",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#25320e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#ab307e",
+    "statusBar.background": "#832561",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ab307e",
+    "statusBarItem.remoteBackground": "#832561",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#832561",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#83256199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#832561"
+}
